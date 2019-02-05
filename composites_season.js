@@ -2,6 +2,8 @@
 // Map.setCenter(-43.25,-22.90, 10); 
 // var roi = ee.Geometry.Point(-43.25,-22.90);
 
+var cana = ee.FeatureCollection("users/elacerda/Cana"),
+    abacaxi = ee.FeatureCollection("users/elacerda/abacaxi");
 
 // leste fluminense
 Map.setCenter(-41.7291, -21.6867, 10); 
